@@ -32,12 +32,12 @@ jobs:
       - name: Actualizar HTML para forzar nuevo JS
         run: |
           fecha=$(date +%s)
-          sed -i "s|js/articulos.js.*|js/articulos.js?t=$fecha\"|" articulos.html
+          sed -i "s|js/articulos_Animales.js.*|js/articulos_Animales.js?t=$fecha\"|" articulos.html
 
       - name: Actualizar HTML para forzar nuevo JS
         run: |
           fecha=$(date +%s)
-          sed -i "s|js/articulos.js.*|js/articulos.js?t=$fecha\"|" index.html
+          sed -i "s|js/articulos_Animales.js.*|js/articulos_Animales.js?t=$fecha\"|" index.html
 
       - name: Hacer pull con rebase para evitar conflictos
         run: git pull 
