@@ -2,7 +2,7 @@ name: Update Articles
 
 on:
   schedule:
-    - cron: '0 12 * * *'  # Ejecutar todos los días a las 12:00 UTC
+    - cron: '0 */6 * * *'  # Ejecutar cada 6 horas
   workflow_dispatch:
   push:
     branches: [main]

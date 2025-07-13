@@ -3,15 +3,20 @@ name: Actualizar eventos naturales en Perú
 on:
   schedule:
     - cron: '0 */6 * * *'  # Cada 6 horas
-  workflow_dispatch:        # También puede ejecutarse manualmente
+  workflow_dispatch:
+  push:
+    branches: [main]
 
 jobs:
-  actualizar_eventos:
+  update-events:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
 
     steps:
       - name: 📥 Clonar el repositorio
         uses: actions/checkout@v3
+        with:
+          persist-credentials: false
 
       - name: 🐍 Configurar Python
         uses: actions/setup-python@v4
@@ -19,10 +24,13 @@ jobs:
           python-version: '3.11'
 
       - name: 📦 Instalar dependencias
-        run: pip install requests
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
 
       - name: ▶️ Ejecutar script de eventos naturales
-        run: python scripts/eventos_naturales.py
+        working-directory: ./scripts
+        run: python eventos_naturales.py
 
       - name: 📂 Mostrar archivos generados
         run: |
@@ -34,7 +42,7 @@ jobs:
           echo "Vista previa del JS:"
           head -n 20 js/eventos_naturales.js || echo "No se encontró JS"
 
-      - name: 📤 Subir cambios si los hay
+      - name: 📤 Subir cambios al repositorio
         env:
           GH_TOKEN: ${{ secrets.GH_TOKN_TRABAJO_FINAL }}
         run: |
