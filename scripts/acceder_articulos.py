@@ -1,5 +1,6 @@
 import time
 import json
+import os  # 👈 Asegúrate de importar esto
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -7,7 +8,7 @@ from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 
 URL = "https://es.mongabay.com/?s=&locations=latinoamerica+amazonia&topics=animales&formats=post+custom_story+podcasts+specials+short_article"
-OUTPUT_FILE = "../js/articulos_Animales.js"
+OUTPUT_FILE = "../js/articulos_Animales.js"  # Ajustado para que funcione en Actions
 
 def configurar_driver():
     options = Options()
@@ -95,6 +96,9 @@ def extraer_articulos(html):
     return articulos
 
 def guardar_como_js(articulos):
+    # Crear carpeta si no existe (para evitar FileNotFoundError)
+    os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
+
     # Agrega una entrada fantasma con la hora para forzar cambios en GitHub
     articulos.append({
         "titulo": f"Última actualización automática - {time.ctime()}",

@@ -1,18 +1,16 @@
-name: Actualizar Articulos
+name: Update Articles
 
 on:
+  schedule:
+    - cron: '0 12 * * *'  # Cada día a las 12 PM UTC
+  workflow_dispatch:       # Permite ejecutar manualmente
   push:
     branches: [main]
-  schedule:
-      - cron: '0 */12 * * *'  # Cada 12 horas
-  workflow_dispatch:       # También puede ejecutarse manualmente
 
 jobs:
-  actualizar:
+  update:
     runs-on: ubuntu-latest
-
-    permissions:
-      contents: write
+    timeout-minutes: 15
 
     steps:
       - name: Clonar el repositorio
@@ -21,27 +19,27 @@ jobs:
       - name: Configurar Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: '3.10'
 
-      - name: Instalar librerías necesarias 
-        run: pip install selenium beautifulsoup4
-
-      - name: Ejecutar el script para actualizar noticias
-        run: python ./scripts/acceder_articulos.py
-
-      - name: Actualizar HTML para forzar nuevo JS
+      - name: Instalar dependencias del sistema
         run: |
-          fecha=$(date +%s)
-          sed -i "s|js/articulos_Animales.js.*|js/articulos_Animales.js?t=$fecha\"|" articulos.html
+          sudo apt-get update
+          sudo apt-get install -y chromium-browser chromium-chromedriver
 
-      - name: Actualizar HTML para forzar nuevo JS
+      - name: Instalar dependencias de Python
         run: |
-          fecha=$(date +%s)
-          sed -i "s|js/articulos_Animales.js.*|js/articulos_Animales.js?t=$fecha\"|" index.html
+          pip install selenium beautifulsoup4 webdriver-manager
 
-      - name: Hacer pull con rebase para evitar conflictos
-        run: git pull 
+      - name: Crear carpeta js si no existe
+        run: mkdir -p js
+
+      - name: Ejecutar el script de scraping
+        run: python scripts/acceder_articulos.py
 
       - name: Subir cambios si los hay
-        uses: stefanzweifel/git-auto-commit-action@v5 
-        
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add js/articulos_Animales.js
+          git commit -m "🔄 Actualización automática de artículos" || echo "Sin cambios"
+          git push
