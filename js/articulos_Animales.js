@@ -2,7 +2,7 @@ const articulos = [
   {
     "titulo": "Descubren asombrosa especie de nutria en América Latina",
     "imagen": "https://imgs.mongabay.com/wp-content/uploads/sites/25/2024/08/26161202/nutria-1-768x512.jpg",
-    "fecha": "Jul 27, 2025",
+    "fecha": "Jul 28, 2025",
     "url": "https://es.mongabay.com/short-article/2025/07/increible-hallazgo-cientificos-descubren-nueva-nutria/"
   },
   {
@@ -6588,7 +6588,7 @@ const articulos = [
     "url": "https://es.mongabay.com/2016/07/el-misterioso-yaguarundi/"
   },
   {
-    "titulo": "Última actualización automática - Mon Jul 28 12:57:29 2025",
+    "titulo": "Última actualización automática - Mon Jul 28 18:40:58 2025",
     "imagen": "",
     "fecha": "",
     "url": "#"
