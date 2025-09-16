@@ -1,5 +1,11 @@
 const articulos = [
   {
+    "titulo": "Enemigo silencioso: confirman en México la presencia de hongo mortal que amenaza a los murciélagos",
+    "imagen": "https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/09/16153617/murrcielago-portada-768x512.jpg",
+    "fecha": "Sep 16, 2025",
+    "url": "https://es.mongabay.com/2025/09/confirman-mexico-presencia-hongo-mortal-amenaza-murcielagos/"
+  },
+  {
     "titulo": "Increíble travesía marina: ¿por qué una tiburón martillo recorrió 1300 kilómetros desde Galápagos hasta Panamá?",
     "imagen": "https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/07/17205200/SHH-with-towed-tag_Credit-to-Pelayo-Salinas-1-768x512.jpg",
     "fecha": "Sep 15, 2025",
@@ -6816,7 +6822,7 @@ const articulos = [
     "url": "https://es.mongabay.com/2016/07/el-misterioso-yaguarundi/"
   },
   {
-    "titulo": "Última actualización automática - Tue Sep 16 12:48:10 2025",
+    "titulo": "Última actualización automática - Tue Sep 16 18:35:20 2025",
     "imagen": "",
     "fecha": "",
     "url": "#"
