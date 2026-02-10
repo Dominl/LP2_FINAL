@@ -1,5 +1,11 @@
 const articulos = [
   {
+    "titulo": "¿Conoces al sapo concho que apareció en el Super Bowl con Bad Bunny?",
+    "imagen": "https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/01/14001151/Cullen-Hanks-2-768x512.jpg",
+    "fecha": "Feb 09, 2026",
+    "url": "https://es.mongabay.com/short-article/2026/02/sapo-concho-extincion-super-bowl-bad-bunny/"
+  },
+  {
     "titulo": "Serranía de Sunsas: un santuario poco explorado en Bolivia que protege 176 especies de aves",
     "imagen": "https://imgs.mongabay.com/wp-content/uploads/sites/25/2026/02/06212904/Proyecto-nuevo-4-768x512.jpg",
     "fecha": "Feb 09, 2026",
@@ -7272,7 +7278,7 @@ const articulos = [
     "url": "https://es.mongabay.com/2016/07/el-misterioso-yaguarundi/"
   },
   {
-    "titulo": "Última actualización automática - Mon Feb  9 19:24:25 2026",
+    "titulo": "Última actualización automática - Tue Feb 10 02:46:23 2026",
     "imagen": "",
     "fecha": "",
     "url": "#"
