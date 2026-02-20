@@ -1,5 +1,11 @@
 const articulos = [
   {
+    "titulo": "Pumas y pingüinos en la Patagonia: el regreso de los felinos expone el impacto de la acción humana en la naturaleza | ESTUDIO",
+    "imagen": "https://imgs.mongabay.com/wp-content/uploads/sites/25/2026/02/18200145/Puma-blood-JoelReyero-768x512.jpg",
+    "fecha": "Feb 20, 2026",
+    "url": "https://es.mongabay.com/2026/02/pumas-pinguinos-patagonia-impacto-accion-humana-estudio/"
+  },
+  {
     "titulo": "¿Qué pescados estás comiendo?: fraude y mal etiquetado amenazan a los tiburones en Perú",
     "imagen": "https://imgs.mongabay.com/wp-content/uploads/sites/25/2018/09/15020702/Copia-de-tiburon-azul-OCEANA-LX-20315-768x512.jpg",
     "fecha": "Feb 19, 2026",
@@ -7308,7 +7314,7 @@ const articulos = [
     "url": "https://es.mongabay.com/2016/07/el-misterioso-yaguarundi/"
   },
   {
-    "titulo": "Última actualización automática - Fri Feb 20 13:10:51 2026",
+    "titulo": "Última actualización automática - Fri Feb 20 18:58:56 2026",
     "imagen": "",
     "fecha": "",
     "url": "#"
