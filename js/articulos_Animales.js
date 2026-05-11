@@ -2,7 +2,7 @@ const articulos = [
   {
     "titulo": "El «jaguar de las nubes»: por primera vez en una década captan a este felino en lo más alto de Honduras",
     "imagen": "https://imgs.mongabay.com/wp-content/uploads/sites/25/2026/05/08051456/Captura-de-pantalla-2026-05-07-a-las-10.11.22-p.m-768x512.png",
-    "fecha": "May 08, 2026",
+    "fecha": "May 11, 2026",
     "url": "https://es.mongabay.com/2026/05/el-jaguar-de-las-nubes-por-primera-vez-en-una-decada-captan-a-este-felino-en-lo-mas-alto-de-honduras/"
   },
   {
@@ -7524,7 +7524,7 @@ const articulos = [
     "url": "https://es.mongabay.com/2016/07/el-misterioso-yaguarundi/"
   },
   {
-    "titulo": "Última actualización automática - Mon May 11 09:51:28 2026",
+    "titulo": "Última actualización automática - Mon May 11 15:21:23 2026",
     "imagen": "",
     "fecha": "",
     "url": "#"
