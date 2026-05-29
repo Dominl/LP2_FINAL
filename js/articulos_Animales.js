@@ -6,6 +6,12 @@ const articulos = [
     "url": "https://es.mongabay.com/2026/05/algoritmos-revolucionan-estudio-gallineta-chica-argentina/"
   },
   {
+    "titulo": "Conguillío: el parque chileno que conserva paisajes de la era de los dinosaurios | Reportaje fotográfico",
+    "imagen": "https://imgs.mongabay.com/wp-content/uploads/sites/25/2024/08/21201422/Mirador-Los-Condores-Jaume-Garces-768x513.jpg",
+    "fecha": "May 29, 2026",
+    "url": "https://es.mongabay.com/custom-story/2026/05/conguillio-parque-chileno-conserva-paisajes-dinosaurios-reportaje-fotografico/"
+  },
+  {
     "titulo": "Comunidades kichwa lograron proteger su territorio gracias a la IA entrenada con miles de sonidos de la Amazonía ecuatoriana",
     "imagen": "https://imgs.mongabay.com/wp-content/uploads/sites/25/2026/05/22000423/foto-portada-768x512.jpg",
     "fecha": "May 28, 2026",
@@ -7596,7 +7602,7 @@ const articulos = [
     "url": "https://es.mongabay.com/2016/07/el-misterioso-yaguarundi/"
   },
   {
-    "titulo": "Última actualización automática - Fri May 29 15:48:00 2026",
+    "titulo": "Última actualización automática - Fri May 29 20:34:51 2026",
     "imagen": "",
     "fecha": "",
     "url": "#"
