@@ -1,5 +1,11 @@
 const articulos = [
   {
+    "titulo": "El limbo legal de los delfines mantenidos en cautiverio en México",
+    "imagen": "https://imgs.mongabay.com/wp-content/uploads/sites/25/2026/08/06113912/Captura-de-pantalla-2026-08-06-a-las-4.38.28-a.m-768x512.png",
+    "fecha": "Aug 06, 2026",
+    "url": "https://es.mongabay.com/2026/08/limbo-legal-delfines-mantenidos-cautiverio-mexico/"
+  },
+  {
     "titulo": "El regreso histórico de las ballenas al Mar Argentino enfrenta una nueva carrera contra el tiempo",
     "imagen": "https://imgs.mongabay.com/wp-content/uploads/sites/25/2020/05/31175634/CCC_SouthernRightWhale1006_112-768x512.jpg",
     "fecha": "Aug 05, 2026",
@@ -7896,7 +7902,7 @@ const articulos = [
     "url": "https://es.mongabay.com/2016/07/el-misterioso-yaguarundi/"
   },
   {
-    "titulo": "Última actualización automática - Thu Aug  6 14:22:38 2026",
+    "titulo": "Última actualización automática - Fri Aug  7 00:09:57 2026",
     "imagen": "",
     "fecha": "",
     "url": "#"
