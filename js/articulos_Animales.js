@@ -144,7 +144,7 @@ const articulos = [
     "url": "https://es.mongabay.com/2026/07/carretera-divide-bosque-pasos-fauna-reducen-atropellamientos-requieren-sistema-integral/"
   },
   {
-    "titulo": "Última actualización automática - Wed Aug 26 01:25:33 2026",
+    "titulo": "Última actualización automática - Wed Aug 26 06:53:53 2026",
     "imagen": "",
     "fecha": "",
     "url": "#"
