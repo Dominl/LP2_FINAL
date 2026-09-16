@@ -1,5 +1,11 @@
 const articulos = [
   {
+    "titulo": "Venezuela: pesca con redes de enmalle amenaza al delfín de Guyana en el Lago de Maracaibo",
+    "imagen": "https://imgs.mongabay.com/wp-content/uploads/sites/25/2026/09/15141919/ORI6858-e1789500355418-768x512.jpg",
+    "fecha": "Sep 16, 2026",
+    "url": "https://es.mongabay.com/2026/09/venezuela-pesca-redes-enmalle-amenaza-delfin-guyana-lago-maracaibo/"
+  },
+  {
     "titulo": "Cangrejo rey del Caribe: el “jardinero del arrecife” que remueve toneladas de algas del Sistema Arrecifal Mesoamericano",
     "imagen": "https://imgs.mongabay.com/wp-content/uploads/sites/25/2026/09/14174013/Copia-de-Copia-de-DSCN0477-768x512.jpg",
     "fecha": "Sep 15, 2026",
@@ -8022,7 +8028,7 @@ const articulos = [
     "url": "https://es.mongabay.com/2016/07/el-misterioso-yaguarundi/"
   },
   {
-    "titulo": "Última actualización automática - Wed Sep 16 11:09:36 2026",
+    "titulo": "Última actualización automática - Wed Sep 16 16:30:07 2026",
     "imagen": "",
     "fecha": "",
     "url": "#"
