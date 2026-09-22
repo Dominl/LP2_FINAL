@@ -1,15 +1,21 @@
 const articulos = [
   {
+    "titulo": "Chile: expertos advierten que los perros que afectan a la fauna y ganadería van más allá de los asilvestrados",
+    "imagen": "https://imgs.mongabay.com/wp-content/uploads/sites/25/2026/09/18232235/P16_080225_M31-81-768x512.jpg",
+    "fecha": "Sep 22, 2026",
+    "url": "https://es.mongabay.com/2026/09/chile-congreso-controlar-perros-asilvestrados-cientificos-cuestionan-clasificacion/"
+  },
+  {
+    "titulo": "El rugido del mar: bioacústica comunitaria para entender cómo el cambio climático afecta al pez mero del Caribe en México",
+    "imagen": "https://imgs.mongabay.com/wp-content/uploads/sites/25/2026/09/08152800/Mero_Punta-Allen_Portada-768x512.jpg",
+    "fecha": "Sep 22, 2026",
+    "url": "https://es.mongabay.com/2026/09/bioacustica-entender-cambio-climatico-afecta-pez-mero-caribe-mexicano/"
+  },
+  {
     "titulo": "Perú: Ministerio del Ambiente autorizó cuotas para exportar aletas de tiburón que beneficiaron a empresario investigado por crimen organizado",
     "imagen": "https://imgs.mongabay.com/wp-content/uploads/sites/25/2026/09/18211434/Caso-Aletas-1-incautacion-de-noviembre-de-2025-Foto-Embajada-Estados-Unidos-768x511.jpg",
     "fecha": "Sep 21, 2026",
     "url": "https://es.mongabay.com/2026/09/peru-ministerio-ambiente-autorizo-cuotas-exportar-aletas-tiburon-beneficiaron-empresario-investigado-crimen-organizado/"
-  },
-  {
-    "titulo": "Chile: expertos advierten que los perros que afectan a la fauna y ganadería van más allá de los asilvestrados",
-    "imagen": "https://imgs.mongabay.com/wp-content/uploads/sites/25/2026/09/18232235/P16_080225_M31-81-768x512.jpg",
-    "fecha": "Sep 21, 2026",
-    "url": "https://es.mongabay.com/2026/09/chile-congreso-controlar-perros-asilvestrados-cientificos-cuestionan-clasificacion/"
   },
   {
     "titulo": "Pasos de fauna en América Latina: los puentes en los árboles que ayudan a monos, perezosos y otros animales a cruzar con seguridad | Reportaje fotográfico",
@@ -8046,7 +8052,7 @@ const articulos = [
     "url": "https://es.mongabay.com/2016/07/el-misterioso-yaguarundi/"
   },
   {
-    "titulo": "Última actualización automática - Tue Sep 22 11:16:29 2026",
+    "titulo": "Última actualización automática - Tue Sep 22 16:38:38 2026",
     "imagen": "",
     "fecha": "",
     "url": "#"
