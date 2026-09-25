@@ -2,7 +2,7 @@ const articulos = [
   {
     "titulo": "La “autopista arbórea” de la Chiquitania en Bolivia: estudio revela la vida oculta en las copas de los árboles",
     "imagen": "https://imgs.mongabay.com/wp-content/uploads/sites/25/2026/09/18170533/1-PORTADA-768x512.jpg",
-    "fecha": "Sep 24, 2026",
+    "fecha": "Sep 25, 2026",
     "url": "https://es.mongabay.com/2026/09/estudio-revela-vida-oculta-copas-arboles-bolivia/"
   },
   {
@@ -8076,7 +8076,7 @@ const articulos = [
     "url": "https://es.mongabay.com/2016/07/el-misterioso-yaguarundi/"
   },
   {
-    "titulo": "Última actualización automática - Fri Sep 25 11:31:12 2026",
+    "titulo": "Última actualización automática - Fri Sep 25 16:55:28 2026",
     "imagen": "",
     "fecha": "",
     "url": "#"
