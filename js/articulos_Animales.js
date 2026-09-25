@@ -1,9 +1,21 @@
 const articulos = [
   {
+    "titulo": "Argentina: hallan muertas a un inusual número de crías de ballena franca austral en Península Valdés",
+    "imagen": "https://imgs.mongabay.com/wp-content/uploads/sites/25/2026/09/25131711/Registro-de-muerte-de-crias-de-ballena-franca-austral-en-Argentina-Foto-cortesia-Instituto-de-Conservacion-de-Ballenas-768x511.jpg",
+    "fecha": "Sep 25, 2026",
+    "url": "https://es.mongabay.com/short-article/2026/09/argentina-hallan-muertas-crias-ballena-franca-austral-peninsula-valdes/"
+  },
+  {
     "titulo": "La “autopista arbórea” de la Chiquitania en Bolivia: estudio revela la vida oculta en las copas de los árboles",
     "imagen": "https://imgs.mongabay.com/wp-content/uploads/sites/25/2026/09/18170533/1-PORTADA-768x512.jpg",
     "fecha": "Sep 25, 2026",
     "url": "https://es.mongabay.com/2026/09/estudio-revela-vida-oculta-copas-arboles-bolivia/"
+  },
+  {
+    "titulo": "Iguana verde: la voraz especie invasora que causa estragos ecológicos y millonarias pérdidas en el Caribe | Reportaje fotográfico",
+    "imagen": "https://imgs.mongabay.com/wp-content/uploads/sites/25/2026/01/29130151/Iguana-iguana-1-768x512.jpg",
+    "fecha": "Sep 25, 2026",
+    "url": "https://es.mongabay.com/custom-story/2026/09/iguana-verde-voraz-invasora-causa-estragos-ecologicos-millonarias-perdidas-caribe-reportaje-fotografico/"
   },
   {
     "titulo": "Malvinas: expertos argentinos advierten sobre impactos ambientales del proyecto petrolero Sea Lion, autorizado por Reino Unido",
@@ -8076,7 +8088,7 @@ const articulos = [
     "url": "https://es.mongabay.com/2016/07/el-misterioso-yaguarundi/"
   },
   {
-    "titulo": "Última actualización automática - Fri Sep 25 16:55:28 2026",
+    "titulo": "Última actualización automática - Fri Sep 25 21:20:16 2026",
     "imagen": "",
     "fecha": "",
     "url": "#"
