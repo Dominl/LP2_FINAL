@@ -1,5 +1,17 @@
 const articulos = [
   {
+    "titulo": "Capturan más de 400 peces león y alertan por la invasión de esta especie en Brasil",
+    "imagen": "https://imgs.mongabay.com/wp-content/uploads/sites/25/2026/10/09172226/Peixe-leao-Bahia-Brasil-768x512.jpg",
+    "fecha": "Oct 09, 2026",
+    "url": "https://es.mongabay.com/short-article/2026/10/capturan-peces-leon-alertan-invasion-especie-brasil/"
+  },
+  {
+    "titulo": "Especies invasoras: una rana africana devora huevos del sapo atacameño y alerta a expertos en Chile | ESTUDIO",
+    "imagen": "https://imgs.mongabay.com/wp-content/uploads/sites/25/2026/10/09060908/RatacamensisHembra-768x512.jpg",
+    "fecha": "Oct 09, 2026",
+    "url": "https://es.mongabay.com/2026/10/especie-invasora-rana-africana-devora-huevos-sapo-atacameno-alerta-expertos-chile/"
+  },
+  {
     "titulo": "Argentina: oso hormiguero gigante vuelve a Corrientes después de 40 años",
     "imagen": "https://imgs.mongabay.com/wp-content/uploads/sites/25/2026/10/08183719/Image_1_Osa-hormiguero-sobre-Bermejo-Foto-Veronica-Quiroga-1-768x512.jpg",
     "fecha": "Oct 08, 2026",
@@ -8124,7 +8136,7 @@ const articulos = [
     "url": "https://es.mongabay.com/2016/07/el-misterioso-yaguarundi/"
   },
   {
-    "titulo": "Última actualización automática - Fri Oct  9 12:53:55 2026",
+    "titulo": "Última actualización automática - Fri Oct  9 22:30:43 2026",
     "imagen": "",
     "fecha": "",
     "url": "#"
