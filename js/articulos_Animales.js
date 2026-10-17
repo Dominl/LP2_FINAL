@@ -1,5 +1,17 @@
 const articulos = [
   {
+    "titulo": "Delfines, marsopas y albatros mueren por la pesca en Latinoamérica: científicos buscan soluciones para protegerlos | Coyuntura ambiental",
+    "imagen": "https://imgs.mongabay.com/wp-content/uploads/sites/25/2026/04/29122828/marsopa-espinosa-2-768x512.jpeg",
+    "fecha": "Oct 17, 2026",
+    "url": "https://es.mongabay.com/2026/10/delfines-marsopas-albatros-mueren-pesca-latinoamerica-cientificos-buscan-soluciones-coyuntura-ambiental/"
+  },
+  {
+    "titulo": "Tapir Valley: la reserva en Costa Rica donde la conservación de la danta permite recuperar el árbol endémico jícaro danto",
+    "imagen": "https://imgs.mongabay.com/wp-content/uploads/sites/25/2026/10/14221352/Foto-5-1-768x512.jpg",
+    "fecha": "Oct 17, 2026",
+    "url": "https://es.mongabay.com/2026/10/ciencia-estiercol-danta-monitoreo-reserva-costa-rica-protege-tapir-centroamericano/"
+  },
+  {
     "titulo": "El Niño amenaza la supervivencia de los pingüinos de Galápagos por el calentamiento del mar | Reportaje fotográfico",
     "imagen": "https://imgs.mongabay.com/wp-content/uploads/sites/25/2026/08/18002822/Pinguinos-Galapagos_%C2%A9AuraBanda.jpg-768x512.png",
     "fecha": "Oct 16, 2026",
@@ -132,19 +144,7 @@ const articulos = [
     "url": "https://es.mongabay.com/2026/09/bioacustica-entender-cambio-climatico-afecta-pez-mero-caribe-mexicano/"
   },
   {
-    "titulo": "Chile: expertos advierten que los perros que afectan a la fauna y ganadería van más allá de los asilvestrados",
-    "imagen": "https://imgs.mongabay.com/wp-content/uploads/sites/25/2026/09/18232235/P16_080225_M31-81-768x512.jpg",
-    "fecha": "Sep 22, 2026",
-    "url": "https://es.mongabay.com/2026/09/chile-congreso-controlar-perros-asilvestrados-cientificos-cuestionan-clasificacion/"
-  },
-  {
-    "titulo": "Colombia: la sobreexplotación pesquera afecta a por lo menos tres especies clave para comunidades del Pacífico | ESTUDIO",
-    "imagen": "https://imgs.mongabay.com/wp-content/uploads/sites/25/2026/09/22034655/sobreexplotacion-pesquera-colombia-comunidades-pacifico-estudio-6-768x512.jpeg",
-    "fecha": "Sep 22, 2026",
-    "url": "https://es.mongabay.com/2026/09/sobreexplotacion-pesquera-colombia-comunidades-pacifico-estudio/"
-  },
-  {
-    "titulo": "Última actualización automática - Sat Oct 17 10:19:53 2026",
+    "titulo": "Última actualización automática - Sat Oct 17 15:12:31 2026",
     "imagen": "",
     "fecha": "",
     "url": "#"
