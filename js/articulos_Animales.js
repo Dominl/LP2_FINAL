@@ -144,7 +144,7 @@ const articulos = [
     "url": "https://es.mongabay.com/2026/09/bioacustica-entender-cambio-climatico-afecta-pez-mero-caribe-mexicano/"
   },
   {
-    "titulo": "Última actualización automática - Tue Oct 20 03:59:47 2026",
+    "titulo": "Última actualización automática - Tue Oct 20 11:07:02 2026",
     "imagen": "",
     "fecha": "",
     "url": "#"
