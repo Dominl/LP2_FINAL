@@ -1,15 +1,21 @@
 const articulos = [
   {
+    "titulo": "Perú: la primera colección científica de peces de Madre de Dios refleja los cambios que genera la minería ilegal en la vida acuática",
+    "imagen": "https://imgs.mongabay.com/wp-content/uploads/sites/25/2026/10/20194331/WhatsApp-Image-2026-09-25-at-20.25.34-768x512.jpeg",
+    "fecha": "Oct 22, 2026",
+    "url": "https://es.mongabay.com/2026/10/peru-primera-coleccion-cientifica-peces-madre-de-dios-mineria-ilegal/"
+  },
+  {
+    "titulo": "Sí es posible coexistir con caimanes, jaguares y otros animales silvestres: en Colombia diseñaron una guía de seis pasos",
+    "imagen": "https://imgs.mongabay.com/wp-content/uploads/sites/25/2026/10/21220215/Jaguar-by-federico-mosquera-768x512.jpg",
+    "fecha": "Oct 22, 2026",
+    "url": "https://es.mongabay.com/2026/10/coexistir-fauna-silvestre-colombia-guia-seis-pasos/"
+  },
+  {
     "titulo": "Animales marinos disminuyeron un 60 % en zona profunda del Golfo de México tras derrame de petróleo de 2010 | ESTUDIO",
     "imagen": "https://imgs.mongabay.com/wp-content/uploads/sites/25/2026/10/21192917/La-vida-marina-disminuyo-drasticamente-en-el-golfo-de-Mexico-en-los-anos-posteriores-al-derrame-de-petroleo-de-BP-768x511.jpg",
     "fecha": "Oct 21, 2026",
     "url": "https://es.mongabay.com/short-article/2026/10/animales-marinos-disminuyeron-golfo-mexico-derrame-petroleo-2010/"
-  },
-  {
-    "titulo": "Perú: la primera colección científica de peces de Madre de Dios refleja los cambios que genera la minería ilegal en la vida acuática",
-    "imagen": "https://imgs.mongabay.com/wp-content/uploads/sites/25/2026/10/20194331/WhatsApp-Image-2026-09-25-at-20.25.34-768x512.jpeg",
-    "fecha": "Oct 21, 2026",
-    "url": "https://es.mongabay.com/2026/10/peru-primera-coleccion-cientifica-peces-madre-de-dios-mineria-ilegal/"
   },
   {
     "titulo": "Científicos descubren una rana venenosa en Ecuador, pero reservan su ubicación para protegerla de los traficantes | ENTREVISTA",
@@ -8226,7 +8232,7 @@ const articulos = [
     "url": "https://es.mongabay.com/2016/07/el-misterioso-yaguarundi/"
   },
   {
-    "titulo": "Última actualización automática - Thu Oct 22 11:28:39 2026",
+    "titulo": "Última actualización automática - Thu Oct 22 16:55:48 2026",
     "imagen": "",
     "fecha": "",
     "url": "#"
