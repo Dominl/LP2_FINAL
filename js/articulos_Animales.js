@@ -2,8 +2,14 @@ const articulos = [
   {
     "titulo": "El Galápagos que no se ve a primera vista: estudio registró 524 avispas, hormigas y abejas en el archipiélago",
     "imagen": "https://imgs.mongabay.com/wp-content/uploads/sites/25/2026/10/29032018/insectos-Galapagos-13-768x512.jpg",
-    "fecha": "Oct 29, 2026",
+    "fecha": "Oct 30, 2026",
     "url": "https://es.mongabay.com/2026/10/galapagos-estudio-registro-524-avispas-hormigas-abejas/"
+  },
+  {
+    "titulo": "Reportaje fotográfico | Nutria gigante: una especie amenazada que lucha por sobrevivir en Sudamérica",
+    "imagen": "https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/04/01005548/Nutria-gigante-2-768x512.jpg",
+    "fecha": "Oct 30, 2026",
+    "url": "https://es.mongabay.com/custom-story/2026/10/reportaje-fotografico-nutria-gigante-especie-amenazada-lucha-por-sobrevivir-sudamerica/"
   },
   {
     "titulo": "Conoce estas tres especies nuevas para la ciencia: un marsupial, una rana venenosa y una diminuta depredadora acuática",
@@ -8256,7 +8262,7 @@ const articulos = [
     "url": "https://es.mongabay.com/2016/07/el-misterioso-yaguarundi/"
   },
   {
-    "titulo": "Última actualización automática - Fri Oct 30 12:28:17 2026",
+    "titulo": "Última actualización automática - Fri Oct 30 22:07:25 2026",
     "imagen": "",
     "fecha": "",
     "url": "#"
