@@ -1,5 +1,17 @@
 const articulos = [
   {
+    "titulo": "Mantarrayas cruzan fronteras en Centroamérica: científicos proponen protección transnacional de sus rutas en el océano | ESTUDIO",
+    "imagen": "https://imgs.mongabay.com/wp-content/uploads/sites/25/2026/10/31013017/Benjamin-Valenzuela-1-768x512.jpg",
+    "fecha": "Nov 03, 2026",
+    "url": "https://es.mongabay.com/2026/11/mantarrayas-cruzan-fronteras-centroamerica-cientificos-proponen-proteccion-transnacional-rutas-oceano/"
+  },
+  {
+    "titulo": "“Busco un científico”: la herramienta que reúne a investigadores e investigadoras del medioambiente en América Latina",
+    "imagen": "https://imgs.mongabay.com/wp-content/uploads/sites/25/2022/06/27093140/Chamela-Jalisco-2011-Cristina-Marti%CC%81nez-Garza-768x512.jpg",
+    "fecha": "Nov 03, 2026",
+    "url": "https://es.mongabay.com/custom-story/2026/11/busco-un-cientifico-herramienta-reune-investigadores-investigadoras-medioambiente-america-latina/"
+  },
+  {
     "titulo": "Tráfico de aletas, pesca y comercio ilegal: las amenazas a los tiburones en cuatro países que rechazaron un acuerdo internacional de protección | Lecturas ambientales",
     "imagen": "https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/07/11151618/42.-Tarqui-landings-Alex-Hearn-USFQ-768x512.jpg",
     "fecha": "Nov 02, 2026",
@@ -8280,7 +8292,7 @@ const articulos = [
     "url": "https://es.mongabay.com/2016/07/el-misterioso-yaguarundi/"
   },
   {
-    "titulo": "Última actualización automática - Tue Nov  3 13:55:22 2026",
+    "titulo": "Última actualización automática - Tue Nov  3 23:05:46 2026",
     "imagen": "",
     "fecha": "",
     "url": "#"
