@@ -138,7 +138,7 @@ const articulos = [
     "url": "https://es.mongabay.com/2026/10/ballenas-peru-alarmas-acusticas-podrian-salvarlas-morir-redes-pesca/"
   },
   {
-    "titulo": "Última actualización automática - Sat Nov 14 05:30:30 2026",
+    "titulo": "Última actualización automática - Sat Nov 14 13:09:56 2026",
     "imagen": "",
     "fecha": "",
     "url": "#"
