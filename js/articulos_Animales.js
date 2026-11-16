@@ -144,7 +144,7 @@ const articulos = [
     "url": "https://es.mongabay.com/2026/10/cientificos-descubren-rana-venenosa-ecuador-reservan-ubicacion-protegerla-traficantes-entrevista/"
   },
   {
-    "titulo": "Última actualización automática - Mon Nov 16 05:27:12 2026",
+    "titulo": "Última actualización automática - Mon Nov 16 15:10:18 2026",
     "imagen": "",
     "fecha": "",
     "url": "#"
